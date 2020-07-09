@@ -1,0 +1,25 @@
+{
+  "name": "fastcdc-wasm",
+  "version": "1.0.0",
+  "description": "FastCDC using fastcdc-rs (rust) compiled to wasm via webpack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.worker.js"
+  },
+  "keywords": [
+    "fastcdc",
+    "wasm",
+    "fastcdc-wasm",
+    "content",
+    "defined",
+    "chunking"
+  ],
+  "author": "Smoozilla",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.3.0"
+  }
+}
